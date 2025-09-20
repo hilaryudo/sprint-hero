@@ -1,12 +1,13 @@
 import React from 'react'
+import lizard from '../assets/images/lizard.png'
 
 const Navbar = () => {
   return (
-    <div className='w-[1420px] h-[106px] border-b-[1px] border-[#EFEFEF] fixed'>
+    <div className='w-[1440px] h-[106px] border-b-[1px] border-[#EFEFEF] fixed bg-black'>
       <div className='w-[1240px] h-[65px] flex justify-between items-center mx-auto my-4'>
         <div className='flex justify-between gap-[33px] w-[690px]'>
           <div className='flex items-center gap-2 w-[145px] h-[65px] rounded-[15px] px-[22px] py-[17px] border-[1px] border-[#1E1E1E]'>
-           <img src="src/images/lizard-icon.png" alt="lizard icon" className='w-[29px] h-[29px]' />
+           <img src={lizard} alt="lizard icon" className='w-[29px] h-[29px]' />
            <p className='font-manrope font-[400px] text-[22px]'>Liz-co</p>
           </div>
 

@@ -1,11 +1,19 @@
 import React from 'react'
+import tinyarrow from '../assets/images/tinyarrow.png'
+import spaceimg1 from '../assets/images/spaceimg1.png'
+import spaceimg2 from '../assets/images/spaceimg2.png'
+import mapimage from '../assets/images/mapimage.png'
+import astro1 from '../assets/images/astro1.png'
+import astro2 from '../assets/images/astro2.png'
+import astro3 from '../assets/images/astro3.png'
+import astro4 from '../assets/images/astro4.png'
 
 const Secondmain = () => {
   return (
     <div>
       <div className='w-[1240px] h-[445px] mt-[170px] mx-auto'>
         <div className='flex justify-center gap-[72px]'>
-          <img src="src/images/spaceimg1.png" alt="" className='w-[610px] h-[445px] rounded-[30px] border-[1px] border-[#4B4B4B]'/>
+          <img src={spaceimg1} alt="" className='w-[610px] h-[445px] rounded-[30px] border-[1px] border-[#4B4B4B]'/>
           <div>
             <p id='k2-11' className='w-[433px] h-[158px] font-[400] text-[58px]'>K2-11 Satellite Launch</p>
             <p className='w-[558px] h-[66px] font-manrope font-[400] text-[18px] text-[#B1B1B1] mt-[20px]'>Lifting the future: K2-11 has launched — unlocking new frontiers in space communication and earth observation.</p>
@@ -30,7 +38,7 @@ const Secondmain = () => {
                 <li className='font-manrope font-[400] text-[18px] w-[364px] h-[33px]'>Real-Time Public Engagement</li>
             </ul>
           </div>
-          <img src="src/images/spaceimg2.png" alt="" className='w-[610px] h-[445px] rounded-[30px] border-[1px] border-[#4B4B4B]' />
+          <img src={spaceimg2} alt="" className='w-[610px] h-[445px] rounded-[30px] border-[1px] border-[#4B4B4B]' />
         </div>
       </div>
 
@@ -38,7 +46,7 @@ const Secondmain = () => {
       <p id='global-impact'className='w-[700px] h-[79px] font-[400] text-[58px] mx-auto'>Creating global impact</p>
 
       <div className='w-[1065px] h-[632px] mt-[11px] mx-auto'>
-        <img src="src/images/mapimage.png" alt="" className='w-[1046px] h-[583px] ' />
+        <img src={mapimage} alt="" className='w-[1046px] h-[583px] ' />
       </div>
 
 
@@ -50,7 +58,7 @@ const Secondmain = () => {
 
         <div className='w-[1237px] h-[501px] mt-[52px] flex justify-between gap-[27px]'>
           <div className='w-[289px] h-[501px] flex flex-col gap-[10px] rounded-[30px] border-[1px] border-[#4B4B4B] px-[20px] py-[21px]'>
-            <img src="src/images/astro1.png" alt="" className='w-[249px] h-[370px] rounded-[10px]' />
+            <img src={astro1} alt="" className='w-[249px] h-[370px] rounded-[10px]' />
             <div className='w-[249px] h-[69px] flex flex-col gap-[3px]'>
               <p  id='astro1-name' className='w-[249px] h-[33px] font-[400] text-[24px] text-center'>Lizarius Ghuna</p>
               <p className='w-[249px] h-[33px] font-manrope font-[400] text-[18px] text-[#B1B1B1] text-center'>Cosmos head & Co founder</p>
@@ -58,7 +66,7 @@ const Secondmain = () => {
           </div>
            
           <div className='w-[289px] h-[501px] flex flex-col gap-[10px] rounded-[30px] border-[1px] border-[#4B4B4B] px-[20px] py-[21px]'>
-            <img src="src/images/astro2.png" alt="" className='w-[249px] h-[370px] rounded-[10px]' />
+            <img src={astro2} alt="" className='w-[249px] h-[370px] rounded-[10px]' />
             <div className='w-[249px] h-[69px] flex flex-col gap-[3px]'>
               <p  id='astro2-name' className='w-[249px] h-[33px] font-[400] text-[24px] text-center'>Mehek Chopra</p>
               <p className='w-[249px] h-[33px] font-manrope font-[400] text-[18px] text-[#B1B1B1] text-center'>Lead satellite</p>
@@ -66,7 +74,7 @@ const Secondmain = () => {
           </div>
 
           <div className='w-[289px] h-[501px] flex flex-col gap-[10px] rounded-[30px] border-[1px] border-[#4B4B4B] px-[20px] py-[21px]'>
-            <img src="src/images/astro3.png" alt="" className='w-[249px] h-[370px] rounded-[10px]' />
+            <img src={astro3} alt="" className='w-[249px] h-[370px] rounded-[10px]' />
             <div className='w-[249px] h-[69px] flex flex-col gap-[3px]'>
               <p  id='astro3-name' className='w-[249px] h-[33px] font-[400] text-[24px] text-center'>Fred Thomas</p>
               <p className='w-[249px] h-[33px] font-manrope font-[400] text-[18px] text-[#B1B1B1] text-center'>Bio-tech specialist</p>
@@ -74,7 +82,7 @@ const Secondmain = () => {
           </div>
 
           <div className='w-[289px] h-[501px] flex flex-col gap-[10px] rounded-[30px] border-[1px] border-[#4B4B4B] px-[20px] py-[21px]'>
-            <img src="src/images/astro4.png" alt="" className='w-[249px] h-[370px] rounded-[10px]' />
+            <img src={astro4} alt="" className='w-[249px] h-[370px] rounded-[10px]' />
             <div className='w-[249px] h-[69px] flex flex-col gap-[3px]'>
               <p  id='astro4-name' className='w-[249px] h-[33px] font-[400] text-[24px] text-center'>Harry James</p>
               <p className='w-[249px] h-[33px] font-manrope font-[400] text-[18px] text-[#B1B1B1] text-center'>Lead quantum processor</p>
@@ -93,7 +101,7 @@ const Secondmain = () => {
           <p className='w-[84px] h-[33px] font-manrope font-[400] text-[18px] text-[#4B4B4B]'>Enter mail</p>
           <div className='w-[165px] h-[50px] rounded-[20px] px-[19px] py-[10px] flex gap-[10px] items-center bg-[#ffffff]'>
             <p className='w-[84px] h-[25px] font-manrope font-[400] text-[18px] text-[#000000]'>Subscribe</p>
-            <img src="src/images/tinyarrow.png" alt="" className='w-[33px] h-[33px] rounded-[14px] border-l-[1px] border-[#C1C1C1] bg-[#000000] shadow-[#5D5D5D]'/>
+            <img src={tinyarrow} alt="" className='w-[33px] h-[33px] rounded-[14px] border-l-[1px] border-[#C1C1C1] bg-[#000000] shadow-[#5D5D5D]'/>
           </div>
         </div>
       </div>

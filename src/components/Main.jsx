@@ -28,11 +28,11 @@ const Main = () => {
                            <img src={tiny4} alt="" className='w-[25px] h-[25px] rounded-[16px]' />
                         </div>
 
-                        <p className='font-[400px] font-manrope text-[14px]'> Join our 34k happy clients</p>
+                        <p className='font-[400px] font-manrope text-[14px] '> Join our 34k happy clients</p>
                    </div>
 
                     <h1 id='beyond' className='w-[638px] h-[218px] text-[80px]'>Beyond Space Beyond Limit.</h1>
-                    <p className='w-[423px] h-[66px] font-manrope font-[400px] text-[18px] text-[#B1B1B1]'>We innovate at the forefront of technology, crafting solutions that shape the future.</p>
+                    <p className='w-[423px] h-[66px] font-manrope font-[400px] text-[18px]  text-[#B1B1B1]'>We innovate at the forefront of technology, crafting solutions that shape the future.</p>
                 </div>
 
                 <div className='flex items-center gap-[10px] w-[183px] h-[50px] rounded-[20px] px-[19px] py-[10px] bg-[#FFFFFF] mt-6'>
